@@ -23,6 +23,7 @@ hoc_vien = [
     {"ten": "Trần Văn T", "sdt": "0222222222", "mon_hoc": "Hóa", "khoa_hoc": "Khóa 2", "trang_thai": False},
     {"ten": "Nguyễn Thị U", "sdt": "0111111111", "mon_hoc": "Văn", "khoa_hoc": "Khóa 1", "trang_thai": False}
 ]
+
 # Tiêu đề của ứng dụng
 st.title("Danh sách thông tin học viên")
 
@@ -38,11 +39,13 @@ mon_hoc_list = list(set(hv['mon_hoc'] for hv in hoc_vien if hv['khoa_hoc'] == se
 # Chọn môn học
 selected_mon_hoc = st.selectbox("Chọn môn học", mon_hoc_list)
 
+
 # Lọc danh sách học viên theo khóa học và môn học đã chọn
 filtered_hoc_vien = [hv for hv in hoc_vien if hv['khoa_hoc'] == selected_khoa_hoc and hv['mon_hoc'] == selected_mon_hoc]
 
 # Hiển thị thông tin học viên và checkbox để tích chọn trạng thái
-for i, hv in enumerate(filtered_hoc_vien):
+for i, hv in enumerate(filtered_hoc_vien, start=1):
+    st.write(f"STT: #{i}")
     st.write(f"Tên: {hv['ten']}")
     st.write(f"Số điện thoại: {hv['sdt']}")
     hv['trang_thai'] = st.checkbox("Đã học", key=f"{selected_khoa_hoc}_{selected_mon_hoc}_{i}")
