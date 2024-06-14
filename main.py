@@ -1,4 +1,6 @@
 import streamlit as st
+from datetime import datetime, date, time
+
 
 # Danh sách thông tin học viên
 hoc_vien = [
@@ -39,10 +41,24 @@ mon_hoc_list = list(set(hv['mon_hoc'] for hv in hoc_vien if hv['khoa_hoc'] == se
 # Chọn môn học
 selected_mon_hoc = st.selectbox("Chọn môn học", mon_hoc_list)
 
+col1, col2 = st.columns(2)
+
+# Chọn ngày học
+today = date.today()
+with col1:
+    selected_ngay_hoc = st.date_input("Ngày học", value=today, min_value=today)
+
+# Chọn thời gian điểm danh
+now = datetime.now()
+default_time = now.time()
+with col2:
+    selected_thoi_gian_diem_danh = st.time_input("Thời gian điểm danh", value=default_time)
 
 # Lọc danh sách học viên theo khóa học và môn học đã chọn
 filtered_hoc_vien = [hv for hv in hoc_vien if hv['khoa_hoc'] == selected_khoa_hoc and hv['mon_hoc'] == selected_mon_hoc]
 
+
+st.write("---")
 # Hiển thị thông tin học viên và checkbox để tích chọn trạng thái
 for i, hv in enumerate(filtered_hoc_vien, start=1):
     st.write(f"STT: #{i}")
