@@ -170,7 +170,7 @@ def login():
             send_data_to_webhook(diem_danh_data, webhook_url, http_basic_auth_user, http_basic_auth_password)
             # Hiển thị thông báo thành công
             st.success("Điểm danh thành công và đã gửi dữ liệu đến Larkbase!")
-        st.write("---")
+        st.write("")
         # Hiển thị các chức năng ở đây
         if st.button("Đăng xuất"):
             st.session_state.logged_in = False
