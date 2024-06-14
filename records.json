@@ -1,0 +1,1102 @@
+[
+    {
+        "created_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "created_time": 1718388041000000,
+        "fields": {
+            "ID MÔN HỌC": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Môn 2 - K90 12/01/24 - 17/01/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "ID khóa học": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "K90 12/01/24 - 17/01/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "Môn học đăng ký": "2",
+            "Số điện thoại": {
+                "type": 13,
+                "value": [
+                    "0383657869"
+                ]
+            },
+            "Tên học viên": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Bùi Thị Phương",
+                        "type": "text"
+                    }
+                ]
+            }
+        },
+        "last_modified_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "last_modified_time": 1718388041000000,
+        "record_id": "recn6OP7HD"
+    },
+    {
+        "created_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "created_time": 1718388041000000,
+        "fields": {
+            "ID MÔN HỌC": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Môn 5 - K98 17/02/24 - 24/02/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "ID khóa học": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "K98 17/02/24 - 24/02/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "Môn học đăng ký": "5",
+            "Số điện thoại": {
+                "type": 13,
+                "value": [
+                    "0838441111"
+                ]
+            },
+            "Tên học viên": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Nguyễn Anh Tú ",
+                        "type": "text"
+                    }
+                ]
+            }
+        },
+        "last_modified_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "last_modified_time": 1718397771000000,
+        "record_id": "recu4wK8PQOktS"
+    },
+    {
+        "created_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "created_time": 1718388041000000,
+        "fields": {
+            "ID MÔN HỌC": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Môn 6 - K102 20/04/24 - 30/04/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "ID khóa học": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "K102 20/04/24 - 30/04/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "Môn học đăng ký": "6",
+            "Số điện thoại": {
+                "type": 13,
+                "value": [
+                    "0394496947"
+                ]
+            },
+            "Tên học viên": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Đinh Thị Thúy ",
+                        "type": "text"
+                    }
+                ]
+            }
+        },
+        "last_modified_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "last_modified_time": 1718388324000000,
+        "record_id": "recuatkqinS0qj"
+    },
+    {
+        "created_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "created_time": 1718388041000000,
+        "fields": {
+            "ID MÔN HỌC": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Môn 5 - K102 20/04/24 - 30/04/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "ID khóa học": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "K102 20/04/24 - 30/04/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "Môn học đăng ký": "5",
+            "Số điện thoại": {
+                "type": 13,
+                "value": [
+                    "0394496947"
+                ]
+            },
+            "Tên học viên": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Đinh Thị Thúy ",
+                        "type": "text"
+                    }
+                ]
+            }
+        },
+        "last_modified_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "last_modified_time": 1718388324000000,
+        "record_id": "recuatkqinoGCv"
+    },
+    {
+        "created_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "created_time": 1718388041000000,
+        "fields": {
+            "ID MÔN HỌC": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Môn 3 - K101 05/04/24 - 19/04/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "ID khóa học": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "K101 05/04/24 - 19/04/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "Môn học đăng ký": "3",
+            "Số điện thoại": {
+                "type": 13,
+                "value": [
+                    "0336107528"
+                ]
+            },
+            "Tên học viên": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Đinh Thị Hương",
+                        "type": "text"
+                    }
+                ]
+            }
+        },
+        "last_modified_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "last_modified_time": 1718388320000000,
+        "record_id": "recu9k4A0svpGu"
+    },
+    {
+        "created_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "created_time": 1718388041000000,
+        "fields": {
+            "ID MÔN HỌC": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Môn 2 - K101 05/04/24 - 19/04/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "ID khóa học": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "K101 05/04/24 - 19/04/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "Môn học đăng ký": "2",
+            "Số điện thoại": {
+                "type": 13,
+                "value": [
+                    "0336107528"
+                ]
+            },
+            "Tên học viên": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Đinh Thị Hương",
+                        "type": "text"
+                    }
+                ]
+            }
+        },
+        "last_modified_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "last_modified_time": 1718388320000000,
+        "record_id": "recu9k4zyH82in"
+    },
+    {
+        "created_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "created_time": 1718388041000000,
+        "fields": {
+            "ID MÔN HỌC": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Môn 4 - K90 12/01/24 - 17/01/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "ID khóa học": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "K90 12/01/24 - 17/01/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "Môn học đăng ký": "4",
+            "Số điện thoại": {
+                "type": 13,
+                "value": [
+                    "0383657869"
+                ]
+            },
+            "Tên học viên": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Bùi Thị Phương",
+                        "type": "text"
+                    }
+                ]
+            }
+        },
+        "last_modified_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "last_modified_time": 1718388041000000,
+        "record_id": "recTahQagE"
+    },
+    {
+        "created_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "created_time": 1718388041000000,
+        "fields": {
+            "ID MÔN HỌC": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Môn 7 - K103 20/05/24 - 31/05/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "ID khóa học": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "K103 20/05/24 - 31/05/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "Môn học đăng ký": "7",
+            "Số điện thoại": {
+                "type": 13,
+                "value": [
+                    "0833768325"
+                ]
+            },
+            "Tên học viên": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Dương Thị Thương ",
+                        "type": "text"
+                    }
+                ]
+            }
+        },
+        "last_modified_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "last_modified_time": 1718388329000000,
+        "record_id": "recudhHNNCKSni"
+    },
+    {
+        "created_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "created_time": 1718388041000000,
+        "fields": {
+            "ID MÔN HỌC": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Môn 5 - K103 20/05/24 - 31/05/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "ID khóa học": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "K103 20/05/24 - 31/05/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "Môn học đăng ký": "5",
+            "Số điện thoại": {
+                "type": 13,
+                "value": [
+                    "0833768325"
+                ]
+            },
+            "Tên học viên": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Dương Thị Thương ",
+                        "type": "text"
+                    }
+                ]
+            }
+        },
+        "last_modified_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "last_modified_time": 1718388327000000,
+        "record_id": "recudhHNNCOvox"
+    },
+    {
+        "created_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "created_time": 1718388041000000,
+        "fields": {
+            "ID MÔN HỌC": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Môn 4 - K102 20/04/24 - 30/04/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "ID khóa học": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "K102 20/04/24 - 30/04/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "Môn học đăng ký": "4",
+            "Số điện thoại": {
+                "type": 13,
+                "value": [
+                    "0394496947"
+                ]
+            },
+            "Tên học viên": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Đinh Thị Thúy ",
+                        "type": "text"
+                    }
+                ]
+            }
+        },
+        "last_modified_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "last_modified_time": 1718388324000000,
+        "record_id": "recuatkqinS0aZ"
+    },
+    {
+        "created_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "created_time": 1718388041000000,
+        "fields": {
+            "ID MÔN HỌC": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Môn 4 - K101 05/04/24 - 19/04/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "ID khóa học": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "K101 05/04/24 - 19/04/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "Môn học đăng ký": "4",
+            "Số điện thoại": {
+                "type": 13,
+                "value": [
+                    "0336107528"
+                ]
+            },
+            "Tên học viên": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Đinh Thị Hương",
+                        "type": "text"
+                    }
+                ]
+            }
+        },
+        "last_modified_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "last_modified_time": 1718388320000000,
+        "record_id": "recu9k4Ap7z0HW"
+    },
+    {
+        "created_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "created_time": 1718388041000000,
+        "fields": {
+            "ID MÔN HỌC": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Môn 2 - K99 04/03/24 - 24/03/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "ID khóa học": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "K99 04/03/24 - 24/03/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "Môn học đăng ký": "2"
+        },
+        "last_modified_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "last_modified_time": 1718388041000000,
+        "record_id": "recu86G04ZLjCj"
+    },
+    {
+        "created_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "created_time": 1718388041000000,
+        "fields": {
+            "ID MÔN HỌC": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Môn 7 - K102 20/04/24 - 30/04/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "ID khóa học": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "K102 20/04/24 - 30/04/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "Môn học đăng ký": "7",
+            "Số điện thoại": {
+                "type": 13,
+                "value": [
+                    "0394496947"
+                ]
+            },
+            "Tên học viên": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Đinh Thị Thúy ",
+                        "type": "text"
+                    }
+                ]
+            }
+        },
+        "last_modified_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "last_modified_time": 1718388324000000,
+        "record_id": "recuatkqinFcym"
+    },
+    {
+        "created_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "created_time": 1718388041000000,
+        "fields": {
+            "ID MÔN HỌC": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Môn 5 - K90 12/01/24 - 17/01/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "ID khóa học": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "K90 12/01/24 - 17/01/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "Môn học đăng ký": "5",
+            "Số điện thoại": {
+                "type": 13,
+                "value": [
+                    "0383657869"
+                ]
+            },
+            "Tên học viên": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Bùi Thị Phương",
+                        "type": "text"
+                    }
+                ]
+            }
+        },
+        "last_modified_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "last_modified_time": 1718388041000000,
+        "record_id": "recAW7TLKj"
+    },
+    {
+        "created_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "created_time": 1718388041000000,
+        "fields": {
+            "ID MÔN HỌC": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Môn 6 - K102 20/04/24 - 30/04/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "ID khóa học": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "K102 20/04/24 - 30/04/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "Môn học đăng ký": "6",
+            "Số điện thoại": {
+                "type": 13,
+                "value": [
+                    "0817976597"
+                ]
+            },
+            "Tên học viên": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Nguyễn Thị Trang ",
+                        "type": "text"
+                    }
+                ]
+            }
+        },
+        "last_modified_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "last_modified_time": 1718388323000000,
+        "record_id": "recuatjw3d0eDg"
+    },
+    {
+        "created_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "created_time": 1718388041000000,
+        "fields": {
+            "ID MÔN HỌC": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Môn 8 - K103 20/05/24 - 31/05/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "ID khóa học": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "K103 20/05/24 - 31/05/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "Môn học đăng ký": "8",
+            "Số điện thoại": {
+                "type": 13,
+                "value": [
+                    "0833768325"
+                ]
+            },
+            "Tên học viên": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Dương Thị Thương ",
+                        "type": "text"
+                    }
+                ]
+            }
+        },
+        "last_modified_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "last_modified_time": 1718388329000000,
+        "record_id": "recudhHNNC1WHJ"
+    },
+    {
+        "created_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "created_time": 1718388041000000,
+        "fields": {
+            "ID MÔN HỌC": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Môn 7 - K101 05/04/24 - 19/04/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "ID khóa học": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "K101 05/04/24 - 19/04/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "Môn học đăng ký": "7",
+            "Số điện thoại": {
+                "type": 13,
+                "value": [
+                    "0336107528"
+                ]
+            },
+            "Trạng thái": "Chưa học",
+            "Tên học viên": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Đinh Thị Hương",
+                        "type": "text"
+                    }
+                ]
+            }
+        },
+        "last_modified_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "last_modified_time": 1718388318000000,
+        "record_id": "recu9k4BkR8No3"
+    },
+    {
+        "created_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "created_time": 1718388041000000,
+        "fields": {
+            "ID MÔN HỌC": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Môn 5 - K102 20/04/24 - 30/04/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "ID khóa học": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "K102 20/04/24 - 30/04/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "Môn học đăng ký": "5",
+            "Số điện thoại": {
+                "type": 13,
+                "value": [
+                    "0817976597"
+                ]
+            },
+            "Tên học viên": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Nguyễn Thị Trang ",
+                        "type": "text"
+                    }
+                ]
+            }
+        },
+        "last_modified_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "last_modified_time": 1718388323000000,
+        "record_id": "recuatjvOkM84x"
+    },
+    {
+        "created_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "created_time": 1718388041000000,
+        "fields": {
+            "ID MÔN HỌC": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Môn 5 - K98 17/02/24 - 24/02/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "ID khóa học": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "K98 17/02/24 - 24/02/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "Môn học đăng ký": "5",
+            "Số điện thoại": {
+                "type": 13,
+                "value": [
+                    "0974858575"
+                ]
+            },
+            "Trạng thái": "Chưa học",
+            "Tên học viên": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Đinh Thị Đào",
+                        "type": "text"
+                    }
+                ]
+            }
+        },
+        "last_modified_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "last_modified_time": 1718397769000000,
+        "record_id": "recu4x2TTo74gU"
+    },
+    {
+        "created_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "created_time": 1718388041000000,
+        "fields": {
+            "ID MÔN HỌC": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Môn 4 - K103 20/05/24 - 31/05/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "ID khóa học": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "K103 20/05/24 - 31/05/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "Môn học đăng ký": "4",
+            "Số điện thoại": {
+                "type": 13,
+                "value": [
+                    "0833768325"
+                ]
+            },
+            "Tên học viên": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Dương Thị Thương ",
+                        "type": "text"
+                    }
+                ]
+            }
+        },
+        "last_modified_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "last_modified_time": 1718388327000000,
+        "record_id": "recudhHNNCT3bA"
+    },
+    {
+        "created_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "created_time": 1718388041000000,
+        "fields": {
+            "ID MÔN HỌC": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Môn 5 - K98 17/02/24 - 24/02/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "ID khóa học": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "K98 17/02/24 - 24/02/24",
+                        "type": "text"
+                    }
+                ]
+            },
+            "Môn học đăng ký": "5",
+            "Số điện thoại": {
+                "type": 13,
+                "value": [
+                    "0333640929"
+                ]
+            },
+            "Tên học viên": {
+                "type": 1,
+                "value": [
+                    {
+                        "text": "Đỗ Thị Loan ",
+                        "type": "text"
+                    }
+                ]
+            }
+        },
+        "last_modified_by": {
+            "email": "",
+            "en_name": "nguyenngothuong",
+            "id": "ou_6e8f9058794e28be64014e07f1e27e0b",
+            "name": "nguyenngothuong"
+        },
+        "last_modified_time": 1718397772000000,
+        "record_id": "recu4x2CeSpJ56"
+    }
+]
