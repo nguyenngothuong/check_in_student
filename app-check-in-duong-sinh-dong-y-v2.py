@@ -149,14 +149,18 @@ def login():
                     diem_danh_data.append({
                         "record_id": hv['record_id'],
                         "fields": {
-                            "Trạng thái": "Đã học"
+                            "Trạng thái": "Đã học",
+                            "Người điểm danh": st.session_state.username
+                        
                         }
                     })
                 else:
                     diem_danh_data.append({
                         "record_id": hv['record_id'],
                         "fields": {
-                            "Trạng thái": "Chưa học"
+                            "Trạng thái": "Chưa học",
+                            "Người điểm danh": st.session_state.username
+                            
                         }
                     })
             
