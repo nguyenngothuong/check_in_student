@@ -2,6 +2,11 @@ import streamlit as st
 from datetime import datetime, date, time
 
 
+
+def format_phone_number(phone_number):
+    return f"{phone_number[:3]}***{phone_number[-3:]}"
+
+
 # Danh sách thông tin học viên
 hoc_vien = [
     {"ten": "Nguyễn Văn A", "sdt": "0123456789", "mon_hoc": "Toán", "khoa_hoc": "Khóa 1", "trang_thai": False},
@@ -61,12 +66,12 @@ filtered_hoc_vien = [hv for hv in hoc_vien if hv['khoa_hoc'] == selected_khoa_ho
 st.write("---")
 # Hiển thị thông tin học viên và checkbox để tích chọn trạng thái
 for i, hv in enumerate(filtered_hoc_vien, start=1):
-    st.write(f"STT: #{i}")
+    st.write(f"STT: {i}")
     st.write(f"Tên: {hv['ten']}")
-    st.write(f"Số điện thoại: {hv['sdt']}")
+    st.write(f"Số điện thoại: {format_phone_number(hv['sdt'])}")
     hv['trang_thai'] = st.checkbox("Đã học", key=f"{selected_khoa_hoc}_{selected_mon_hoc}_{i}")
     st.write("---")
-
+    
 # Nút xác nhận gửi đi
 if st.button("Xác nhận"):
     # In ra trạng thái học viên đã chọn
