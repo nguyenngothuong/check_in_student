@@ -154,7 +154,7 @@ def login():
             # Lưu dữ liệu điểm danh vào file JSON
             # save_data_to_json(diem_danh_data, "diem_danh.json")
             # Gửi dữ liệu điểm danh đến webhook
-            st.write(diem_danh_data)
+            # st.write(diem_danh_data)
             send_data_to_webhook(diem_danh_data, webhook_url, http_basic_auth_user, http_basic_auth_password)
             # Hiển thị thông báo thành công
             st.success("Điểm danh thành công và đã gửi dữ liệu đến Larkbase!")
