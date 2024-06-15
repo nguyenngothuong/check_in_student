@@ -1,7 +1,5 @@
 import streamlit as st
-from datetime import datetime, date, time
 import json
-import pytz
 from lark_connector import get_larkbase_data_v4, get_tenant_access_token
 import requests
 from requests.auth import HTTPBasicAuth
@@ -22,15 +20,13 @@ def login():
                 st.session_state.logged_in = True
                 st.session_state.username = username
                 st.success("Đăng nhập thành công!")
-                st.experimental_rerun()
+                st.rerun()
             else:
                 st.error("Sai tài khoản mật khẩu")
                 st.info("Cấp lại tài khoản mật khẩu -> liên hệ admin.")
     else:
         st.write(f"Xin chào {st.session_state.username}!")
         
-        # Lấy múi giờ GMT+7 (giờ Hồ Chí Minh, Việt Nam)
-        timezone_vietnam = pytz.timezone('Asia/Ho_Chi_Minh')
         def format_phone_number(phone_number):
             return f"{phone_number[:3]}***{phone_number[-3:]}"
 
@@ -96,17 +92,6 @@ def login():
         # Chọn môn học
         selected_mon_hoc = st.selectbox("Chọn môn học", mon_hoc_list)
 
-        col1, col2 = st.columns(2)
-
-        # Chọn ngày học
-        today = date.today()
-        with col1:
-            selected_ngay_hoc = st.date_input("Ngày học", value=today)
-
-        # Lấy thời gian hiện tại theo múi giờ GMT+7
-        now = datetime.now(timezone_vietnam)
-        with col2:
-            selected_thoi_gian_diem_danh = st.time_input("Thời gian điểm danh", value="now")
 
         # Lọc danh sách học viên theo khóa học và môn học đã chọn
         filtered_hoc_vien = [hv for hv in records if hv['fields'].get('ID khóa học', {}).get('value', [{}])[0].get('text', '') == selected_khoa_hoc and hv['fields'].get('ID MÔN HỌC', {}).get('value', [{}])[0].get('text', '') == selected_mon_hoc]
@@ -124,7 +109,7 @@ def login():
 
 
 
-
+        txt = st.text_area("Ghi chú", placeholder="Nhập ghi chú...")
         def send_data_to_webhook(json_data, webhook_url, user, password):
             # Thiết lập thông tin xác thực
             auth = HTTPBasicAuth(user, password)
@@ -142,38 +127,42 @@ def login():
                 
         # Nút xác nhận gửi đi
         if st.button("Xác nhận"):
-            diem_danh_data = []
+            diem_danh_data = {
+                "note": txt,
+                "records": []
+            }
+
             # Lặp qua danh sách học viên đã lọc
             for hv in filtered_hoc_vien:
                 if hv.get('trang_thai', False):
-                    diem_danh_data.append({
+                    diem_danh_data["records"].append({
                         "record_id": hv['record_id'],
                         "fields": {
                             "Trạng thái": "Đã học",
                             "Người điểm danh": st.session_state.username
-                        
                         }
                     })
                 else:
-                    diem_danh_data.append({
+                    diem_danh_data["records"].append({
                         "record_id": hv['record_id'],
                         "fields": {
                             "Trạng thái": "Chưa học",
                             "Người điểm danh": st.session_state.username
-                            
                         }
                     })
             
             # Lưu dữ liệu điểm danh vào file JSON
             # save_data_to_json(diem_danh_data, "diem_danh.json")
             # Gửi dữ liệu điểm danh đến webhook
+            st.write(diem_danh_data)
             send_data_to_webhook(diem_danh_data, webhook_url, http_basic_auth_user, http_basic_auth_password)
             # Hiển thị thông báo thành công
             st.success("Điểm danh thành công và đã gửi dữ liệu đến Larkbase!")
         st.write("")
-        # Hiển thị các chức năng ở đây
-        if st.button("Đăng xuất"):
-            st.session_state.logged_in = False
-            st.session_state.username = ''
-            st.rerun()
+        with st.popover("Đăng xuất ứng dụng."):
+            # Hiển thị các chức năng ở đây
+            if st.button("Đăng xuất"):
+                st.session_state.logged_in = False
+                st.session_state.username = ''
+                st.rerun()
 login()
